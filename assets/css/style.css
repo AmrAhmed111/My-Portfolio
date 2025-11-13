@@ -837,7 +837,8 @@ section,
 
 .img-web,
 .img-tutorial,
-.img-python {
+.img-python,
+.img-cert {
     width: 100%;
     height: 200px;
 }
