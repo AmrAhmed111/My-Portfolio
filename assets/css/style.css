@@ -110,7 +110,6 @@ h6 {
     .header {
         background-color: var(--background-color);
         border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-        width: 300px;
         left: -100%;
     }
 }
@@ -492,7 +491,7 @@ section,
 
 @media (max-width: 431px) {
     .hero img {
-        right: -12rem;
+        right: -14rem;
     }
 }
 
