@@ -492,10 +492,13 @@ section,
 @media (max-width: 431px) {
     .hero img {
         right: -14rem;
+<<<<<<< HEAD
     }
 
     .size-small {
         font-size: 15px;
+=======
+>>>>>>> e0e7ce992430a95ade2f63522be80229cb95aa8d
     }
 }
 
