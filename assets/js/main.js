@@ -233,4 +233,14 @@
     }
     window.addEventListener("load", navmenuScrollspy);
     document.addEventListener("scroll", navmenuScrollspy);
+
+    /**
+     *  Increase Age Automatic
+     */
+    let birthday = 2004
+    let currentDate = new Date().getFullYear()
+
+    let age = currentDate - birthday
+
+    document.getElementById('age').innerText = age
 })();
