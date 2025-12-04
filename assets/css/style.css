@@ -492,13 +492,10 @@ section,
 @media (max-width: 431px) {
     .hero img {
         right: -14rem;
-<<<<<<< HEAD
     }
 
     .size-small {
         font-size: 15px;
-=======
->>>>>>> e0e7ce992430a95ade2f63522be80229cb95aa8d
     }
 }
 
@@ -811,14 +808,14 @@ section,
 .portfolio .portfolio-item .portfolio-info p {
     color: color-mix(in srgb, var(--default-color), transparent 30%);
     font-size: 14px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
     padding-right: 50px;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
-    position: absolute;
-    right: 50px;
+.portfolio .portfolio-item .portfolio-info .details-link,
+.portfolio .portfolio-item .portfolio-info .demo-link {
+    padding-left: 5px;
     font-size: 24px;
     top: calc(50% - 14px);
     color: color-mix(in srgb, var(--default-color), transparent 30%);
@@ -827,7 +824,8 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
+.portfolio .portfolio-item .portfolio-info .details-link:hover,
+.portfolio .portfolio-item .portfolio-info .demo-link:hover {
     color: var(--accent-color);
 }
 
